@@ -12,12 +12,4 @@ matrix:
       install: true
       # command to run tests
       script: nosetests
-
-
-    - language: node_js
-      node_js:
-          - "5.0"
-          - "4.2"
-          - "0.12"
-          - "0.10"
-          - "0.8"
+      
