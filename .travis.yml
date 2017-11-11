@@ -1,21 +1,23 @@
-language: python
-python:
-  - "2.6"
-  - "2.7"
-  - "3.2"
-  - "3.3"
-  - "3.4"
-  - "3.5"
-# command to install dependencies
-install: true
-# command to run tests
-script: nosetests
+matrix:
+  include:
+    - language: python
+      python:
+        - "2.6"
+        - "2.7"
+        - "3.2"
+        - "3.3"
+        - "3.4"
+        - "3.5"
+      # command to install dependencies
+      install: true
+      # command to run tests
+      script: nosetests
 
 
-language: node_js
-node_js:
-    - "5.0"
-    - "4.2"
-    - "0.12"
-    - "0.10"
-    - "0.8"
+    - language: node_js
+      node_js:
+          - "5.0"
+          - "4.2"
+          - "0.12"
+          - "0.10"
+          - "0.8"
