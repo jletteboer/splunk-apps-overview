@@ -1,0 +1,16 @@
+[
+    {
+        "category": "Default",
+        "id": "app_overview",
+        "short-description": "Use this App for showcase your active and visable App collection.",
+        "title": "App Overview",
+        "visible": "1"
+    },
+    {
+        "category": "Default",
+        "id": "search",
+        "short-description": "The Search app is Splunk's default interface for searching and analyzing IT data. It allows you to index data into Splunk, add knowledge, build reports, and create alerts. The Search app can be used across many areas of IT including application management, operations management, security, and compliance.",
+        "title": "Search & Reporting",
+        "visible": "1"
+    }
+]
